@@ -14,6 +14,9 @@ int main(){
         cout<<"greatest number is :"<<num1;
     }else if (num1<num2){
         cout<<"greatest number is :"<<num2;
+    }else{
+        cout<<"all are same";
     }
+
 
 }

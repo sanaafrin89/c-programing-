@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int num1;
+    int num2;
+    int num3;
+
+    cout<<"enter 1st number";
+    cin>>num1;
+    cout<<"enter 2nd number";
+    cin>>num2;
+    cout<<"enter 2nd number";
+    cin>>num2;
+
+    if(num2<num1 && num3<num1){
+        cout<<"greatest number is :"<<num1;
+    }else if (num1<num2 && num3<num2){
+        cout<<"greatest number is :"<<num2;
+    }else if (num2<num3 && num1<num3){
+        cout<<"greatest number is :"<<num2;
+    }else{
+        cout<<"all are same";
+    }
+
+}
