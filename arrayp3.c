@@ -6,15 +6,18 @@ int main () {
     int c[5];
     int i;
 
-    printf("enter 5 number");
+
 
     for( i=0; i<5; i=i+1){
+
+    printf("array of a [%d] :", i);
         scanf("%d",&a[i]);
     }
 
-    printf("enter 5 number");
+
 
     for( i=0; i<5; i=i+1){
+              printf("array of b [%d] :", i);
         scanf("%d",&b[i]);
     }
 
@@ -31,13 +34,11 @@ int main () {
    // }
 
 
-   for( i=0; i<=4; i=i+1){
+    for( i=0; i<=4; i=i+1){
         c[i]=a[i]+b[i];
 
         printf("%d",c[i]);
 
    }
-
-
 
 }

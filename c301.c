@@ -8,9 +8,9 @@ int main(){
 
     if(year%4==0){
         printf("leap_year");
-    }if() else(year%100==0){
+    }else if(year%100==0){
        printf("leap_year");
-    }if else(year%400==0){
+    }else if(year%400==0){
        printf("leap_year");
     }else{
         printf("not a leap_year");

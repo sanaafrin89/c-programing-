@@ -6,17 +6,19 @@ int main(){
     int *p;
     int i;
 
-    printf("enter 5 number");
+
 
     for( i=0; i<5; i=i+1){
+              printf("array of a [%d] :", i);
         scanf("%d",&a[i]);
     }
 
 
 
-    printf("enter 5 number");
+
 
     for( i=0; i<5; i=i+1){
+             printf("array of b [%d] :", i);
         scanf("%d",&b[i]);
     }
 
